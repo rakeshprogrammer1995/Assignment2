@@ -1,0 +1,11 @@
+package Exercise2;
+
+    public class removeSpace {
+        public static void main(String[] args) {
+            String str1="Remove spaces";
+//Removes the white spaces using regex.
+            str1 = str1.replaceAll("\\s+", "");
+            System.out.println("String after removing all the spaces : " + str1);
+        }
+    }
+
